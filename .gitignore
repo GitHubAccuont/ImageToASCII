@@ -1,0 +1,5 @@
+# Compiled files
+/bin/
+/obj/
+# Generated files
+/.vs/
