@@ -1,0 +1,64 @@
+﻿@page
+@model ImageToASCII.Pages.ConvertImageModel
+@{
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Image to ASCII Converter</title>
+    <style>
+        pre {
+            white-space: pre-wrap;
+            font-family: monospace;
+            font-size: 12px;
+            border: 1px solid black;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        .frame {
+            border: 1px solid black;
+            display: inline-block;
+            padding: 10px;
+        }
+
+        .container {
+            display: flex;
+            align-items: flex-start;
+        }
+
+        .url-input {
+            margin-right: 20px;
+        }
+
+        .image-preview {
+            max-width: 500px;
+            max-height: 500px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Image to ASCII Converter</h1>
+    <div class="container">
+        <form method="post" enctype="multipart/form-data" class="url-input">
+            <input type="file" name="imageFile" accept="image/*" required />
+            <input type="submit" value="Convert" />
+        </form>
+        <form method="get" action="/ConvertImage/OnGetAscii" class="url-input">
+            <input type="text" name="imageUrl" placeholder="Enter Image URL" />
+            <input type="submit" value="Convert URL" />
+        </form>
+        <div class="image-preview">
+            @if (Model.ImageFilePath != null)
+            {
+                <h3>Selected Image:</h3>
+                <img src="@Model.ImageFilePath" alt="Selected Image" />
+            }
+        </div>
+    </div>
+    <div class="frame">
+        <pre><code>@Html.Raw(Model.AsciiRepresentation)</code></pre>
+    </div>
+</body>
+</html>

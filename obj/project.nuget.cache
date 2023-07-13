@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "kasPxHl5cFCfIuiTvBl2+yD8fNi2jikxyZYk/HmRAV/9+Oo1mnV6lF/s/EL1jQ7NVaRKxxaoZ80nNq4GPe5WSw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ChosenOne\\source\\repos\\ImageToASCII\\ImageToASCII.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ChosenOne\\.nuget\\packages\\microsoft.io.recyclablememorystream\\2.3.2\\microsoft.io.recyclablememorystream.2.3.2.nupkg.sha512",
+    "C:\\Users\\ChosenOne\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.17.0\\microsoft.visualstudio.azure.containers.tools.targets.1.17.0.nupkg.sha512",
+    "C:\\Users\\ChosenOne\\.nuget\\packages\\sixlabors.imagesharp\\3.0.1\\sixlabors.imagesharp.3.0.1.nupkg.sha512",
+    "C:\\Users\\ChosenOne\\.nuget\\packages\\sixlabors.imagesharp.web\\3.0.1\\sixlabors.imagesharp.web.3.0.1.nupkg.sha512",
+    "C:\\Users\\ChosenOne\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.14\\microsoft.windowsdesktop.app.ref.6.0.14.nupkg.sha512",
+    "C:\\Users\\ChosenOne\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.14\\microsoft.netcore.app.ref.6.0.14.nupkg.sha512",
+    "C:\\Users\\ChosenOne\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.14\\microsoft.aspnetcore.app.ref.6.0.14.nupkg.sha512",
+    "C:\\Users\\ChosenOne\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.14\\microsoft.netcore.app.host.win-x64.6.0.14.nupkg.sha512"
+  ],
+  "logs": []
+}
